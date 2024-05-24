@@ -145,7 +145,7 @@ body{
 h2{
     color: #F6635C;
 }
-p{
+.stock{
     color: #F2613F;
 }
 .logo{
@@ -163,3 +163,10 @@ p{
 .productos1{
     width: 230px;
 }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: black;
+    display: block;
+  }
