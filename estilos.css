@@ -173,7 +173,7 @@ footer {
 }
 .inicio{
     display: grid;
-    background: grey;
+    background: linear-gradient( to right, #e45529, #e67935, #fc54b7);
     width: 80%;
     height: auto;
     text-align: center;
@@ -194,14 +194,41 @@ footer {
 }
 h3{
     display: grid;
-    background: #F6635C;
-    text-align: center;
-    width: 80%;
-    margin: 10%;
+    background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
+    text-align: start;
+    font-family: "Playfair Display", serif;
+}
+strong{
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+}
+.nosotros{
+    background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
 }
 .principal{
     display: grid;
-    background: #888;
+    background: linear-gradient( to left, #e45529, #e67935, #fc54b7);
     width: 80%;
+    height: auto;
     margin: 10%;
+}
+.principal1{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid#333;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
+    width: 75%;
+    height: auto;
+    margin: 5%;
+}
+.objetivo{
+    font-family: "Dancing Script", cursive;
+    background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
 }
