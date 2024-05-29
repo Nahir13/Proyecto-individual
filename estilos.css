@@ -65,7 +65,7 @@ body{
     border-radius: 5px;
     text-align: center;
     padding: 10px;
-    margin-left: 80px;
+    margin: 25%;
 
     &:hover {
         cursor: pointer;
@@ -170,4 +170,38 @@ footer {
     background-color: DarkSalmon;
     color: black;
     display: block;
-  }
+}
+.inicio{
+    display: grid;
+    background: grey;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 10%;
+}
+.letra{
+    color: #fff;
+    font-size: 45px;
+}
+.linea{
+    width: 80%;
+    margin: auto;
+}
+.contenido{
+    color: #fff;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+}
+h3{
+    display: grid;
+    background: #F6635C;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+}
+.principal{
+    display: grid;
+    background: #888;
+    width: 80%;
+    margin: 10%;
+}
