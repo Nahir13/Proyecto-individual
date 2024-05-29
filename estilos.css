@@ -7,10 +7,11 @@ body{
 .login-box {
     width: 320px;
     height: 420px;
-    background: #FF0080;
+    background: #fc548e;
     color: #fff;
     top: 50%;
     left: 50%;
+    border: 2px solid pink;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
@@ -55,7 +56,7 @@ body{
     font-size: 16px;
 }
   .login-box .shop {
-    border: none;
+    border: 2px solid white;
     outline: none;
     height: 40px;
     background: #FF5580;
@@ -85,7 +86,7 @@ body{
     }
 }
 .boton{
-    background: salmon;
+    background: linear-gradient( to right, #f4ac8a, #e45529, #fc548e);
     display: grid;
     padding: 10px;
     color: #fff;
