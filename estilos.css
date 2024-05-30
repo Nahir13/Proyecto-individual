@@ -169,6 +169,12 @@ h2{
 }
 .productos1{
     width: 230px;
+    height: auto;
+    transition: linear  width 2s;
+
+    &:hover{
+        width: 300px;
+    }
 }
 footer {
     text-align: center;
