@@ -222,6 +222,9 @@ strong{
     height: auto;
     margin: 5%;
 }
+u{
+    color: #000;
+}
 .objetivo{
     font-family: "Dancing Script", cursive;
     background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
