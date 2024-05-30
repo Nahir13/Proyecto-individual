@@ -93,9 +93,10 @@ body{
     border-radius: 5px;
     text-align: center;
     margin: 10px;
-} 
-.boton:hover{
-    background-color: #F2613F;
+
+    &:hover{
+        background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
+    }
 }
 .text-center{
     text-align: center;
@@ -160,6 +161,11 @@ h2{
 .productos{
     width: 150px;
     height: auto;
+    transition: linear  width 2s;
+
+    &:hover{
+        width: 300px;
+    }
 }
 .productos1{
     width: 230px;
@@ -182,6 +188,33 @@ footer {
 .letra{
     color: #fff;
     font-size: 45px;
+}
+/* .transición{
+    transition: ease width 5s;
+
+    &:hover{
+        width: 800px;
+    }
+} */
+
+@keyframes animacion{
+    20%,
+    40% {
+      transform: replace(100px);
+      width: 100px;
+    }
+    80%,
+    100% {
+      transform: replace(150px);
+      width: 200px;
+    }
+  }
+
+.foto{
+    animation-name: animacion;
+    animation-duration: 7s;
+    animation-composition: replace;
+    animation-iteration-count: infinite;
 }
 .linea{
     width: 80%;
@@ -229,7 +262,7 @@ u{
     font-family: "Dancing Script", cursive;
     background: linear-gradient( to right, #db7a7a, #ee2c2c, #e88d95);
     text-align: center;
-    display: flex;
+    display: grid;
     font-size: 30px;
 }
 h1{
