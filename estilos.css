@@ -195,14 +195,6 @@ footer {
     color: #fff;
     font-size: 45px;
 }
-/* .transición{
-    transition: ease width 5s;
-
-    &:hover{
-        width: 800px;
-    }
-} */
-
 @keyframes animacion{
     20%,
     40% {
